@@ -26,7 +26,7 @@ But in most case(s) the script(s) harmless, however I do not plan on taking any 
 Do not know, but if needed tinkering continues.
 
 
-For a better understanding of the scripts checkout the docs directory.
+For a better understanding of the scripts checkout the [docs](./docs/) directory.
 
 
 # Thanks for the Read.
