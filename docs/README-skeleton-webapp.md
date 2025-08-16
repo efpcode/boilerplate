@@ -2,31 +2,33 @@
 
 This a basic script that creates a minimal structure for a typical webapp.
 
-
-
 ## Installation
 
 ### Step 1
 
-Clone the repository with the command below
+Clone the repository with the command below:
 
 ```
 git clone https://github.com/efpcode/boilerplate.git
 ```
 
 
+
 ### Step 2
-Modify the path to from `path/to/repo/skeleton_webapp.sh` with the actual path to script
+Ensure that script is executable with the command `ls -la` standing in the directory of ``skeletonwebapp`` 
 
-```
-echo "alias skeletonwebapp=\"$HOME/path/to/yourrepo/skeleton_webapp.sh\"" >> ~/.zshrc && source ~/.zshrc
-```
+If not executable please do the following command:
 
+  *  ``chmod +x skeletonwebapp``
 
 ### Step 3
 
+Add the repository to your path with the following command:
 
-Ensure that script is executable with the command `ls -la` standing in the directory of ``skeleton_webapp.sh`` 
+```
+export PATH="$HOME/boilerplate:$PATH" && source ~/.zshrc
+```
+
 
 ## How to use
 
@@ -37,10 +39,5 @@ Create a target directory for the project e.g. ``newproject``.
 ### Step 2
 Run the command below, but replace ``path/to/`` with the file path to target directory i.e. ``newproject``.
 
-```
 skeletonwebapp newproject
-```
-
-
-
 
